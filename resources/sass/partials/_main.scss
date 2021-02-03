@@ -5,11 +5,10 @@ main {
         margin: 70px auto;
         .cards_box {
             display: flex;
-            justify-content: flex-start;
-            align-items: center;
+            flex-wrap: wrap;
             width: 100%;
             .card {
-                width: 30%;
+                width: calc((100% / 3) - 10px);
                 margin: 0 5px;
                 img {
                     

@@ -35,12 +35,11 @@ main .container {
 }
 main .container .cards_box {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  flex-wrap: wrap;
   width: 100%;
 }
 main .container .cards_box .card {
-  width: 30%;
+  width: calc((100% / 3) - 10px);
   margin: 0 5px;
 }
 main .container .cards_box .card img {

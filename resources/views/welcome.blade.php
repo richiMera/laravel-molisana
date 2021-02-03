@@ -4,11 +4,13 @@
     <div class="container">
         <h2>LE LUNGHE</h2>
         <div class="cards_box">
+            @foreach ($lunghe as $lunga)
             <div class="card">
-             @foreach ($lunghe as $lunga)
+             
                 <img src="{{$lunga['src']}}" alt="{{$lunga['titolo']}}">
-             @endforeach
+            
             </div>
+            @endforeach
         </div>
     </div>
 @endsection
