@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+header li {
+  display: inline-block;
+  padding: 10px 5px;
+  margin: 0 10px;
+}
+header li a {
+  font-size: 17px;
+}
+
+main {
+  width: 100%;
+}
+main .container {
+  width: 70%;
+  margin: 70px auto;
+}
+main .container .cards_box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+main .container .cards_box .card {
+  width: 30%;
+  margin: 0 5px;
+}
+main .container .cards_box .card img {
+  width: 100%;
+}
